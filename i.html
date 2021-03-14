@@ -44,39 +44,50 @@
     <br>
     <br>
     <div class = "row">
-      <div class= col-md-1></div>
-      <div class = "col-md-6">
-          <div class="box-container" style = "background-color: #e3f2fd;" align = "center">
-            <h2>Humidity</h2>
-            <hr>
-            <a href="humidity.html">
-              <img src="Resources/assets/images/Fig2.png" alt="Humidity" width = "85%">
-            </a>
-            <br>
-            <br>
-            <p> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of year this data was gathered. </p>
-          </div>
-      </div>  
-      <div class = col-md-3>
-        <div class="box-container" style = "background-color: #e3f2fd; padding: 10px">
-          <h3>Visualizations </h3>
-          <hr>
-              <a  href="Max_temp.html">
-                <img src="Resources/assets/images/Fig1.png" id = pad alt="Max_Temp" width = "49%">
-             </a>
-              <a href="humidity.html">
-                <img src="Resources/assets/images/Fig2.png" id = pad alt="Humidty" width = "49%" style="border:3px solid rgb(28, 20, 148)">
-              </a>
-        <br>
-            <a href="cloudiness.html">
-              <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" id = pad width = "49%">
-           </a>
-            <a href="windspeed.html">
-              <img src="Resources/assets/images/Fig4.png" alt="Windspeed" id = pad width = "49%">
-            </a>
-      
+      <div class = "col-md-1"></div>
+      <div class = "col-md-7">
+            <h2>Summary: Latitude vs. X</h2>
+                <hr>
+                <a href="index.html">
+                <img src="Resources/assets/images/Fig1.png" style = "float:left" alt="Mat Temp" width = "65%">
+                </a>
+                <hr>
+                <p>The purpose of this project was to analyze how weather changes as you get close to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on on over 500 cities.</p>
+                <p>After assembling the dataset, we used matplotlib to plot various aspects of the weather vs. latitude. Factors we looked</p>
         </div>
-    </div>
+        <div class = col-md-3>
+          <div class="box-container" style = "background-color: #e3f2fd; padding: 10px">
+            <h3>Visualizations </h3>
+            <hr>
+            <div class = "row">
+              <div class = "col-md-6">
+                <a  href="Max_temp.html">
+                  <img src="Resources/assets/images/Fig1.png" alt="Max_Temp" width = "100%">
+               </a>
+              </div>
+             <div class = "col-md-6">
+                <a href="humidity.html">
+                  <img src="Resources/assets/images/Fig2.png" alt="Humidty" width = "100%">
+                </a>
+            </div>
+          </div>
+          <br>
+          <div class = "row">
+            <div class = "col-md-6">
+              <a href="cloudiness.html">
+                <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width = "100%">
+             </a>
+            </div>
+           <div class = "col-md-6">
+              <a href="windspeed.html">
+                <img src="../Instructions/Resources/assets/images/Fig4.png" alt="Windspeed" width = "100%">
+              </a>
+          </div>
+        </div>
+        
+          </div>
+      </div>
+    </div>  
   </body>
 
 

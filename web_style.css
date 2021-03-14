@@ -11,3 +11,6 @@ body  {
 h2{
   font-weight: bold;
 }
+#pad{
+  padding:10px
+}
